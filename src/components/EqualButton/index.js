@@ -4,7 +4,11 @@ import { NumberContext } from '../NumberProvider'
 const EqualButton = () => {
 	const { doMath } = useContext(NumberContext)
 	return (
-		<button className='function-button' type='button' onClick={() => doMath()}>
+		<button
+			className='function-button col-3'
+			type='button'
+			onClick={() => doMath()}
+		>
 			=
 		</button>
 	)

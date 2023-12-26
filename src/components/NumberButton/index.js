@@ -4,7 +4,11 @@ import { NumberContext } from '../NumberProvider'
 const NumberButton = ({ buttonValue }) => {
 	const { handleSetDisplayValue } = useContext(NumberContext)
 	return (
-		<button type='button' onClick={() => handleSetDisplayValue(buttonValue)}>
+		<button
+			className='number-button col-3'
+			type='button'
+			onClick={() => handleSetDisplayValue(buttonValue)}
+		>
 			{buttonValue}
 		</button>
 	)

@@ -6,7 +6,7 @@ const ClearButton = () => {
 	return (
 		<button
 			type='button'
-			className='function-button'
+			className='function-button col-3'
 			onClick={() => handleClearValue()}
 		>
 			C

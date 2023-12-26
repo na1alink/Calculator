@@ -1,15 +1,13 @@
 import React from 'react'
-import Calculator from './components/Calculator'
+
 import NumberProvider from './components/NumberProvider'
+import Calculator from './components/Calculator'
+import './index.css'
 
-import 'bootstrap/dist/css/bootstrap.css'
-
-function App() {
+export default function App() {
 	return (
 		<NumberProvider>
 			<Calculator />
 		</NumberProvider>
 	)
 }
-
-export default App

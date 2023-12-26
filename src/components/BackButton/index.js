@@ -1,14 +1,12 @@
 import React, { useContext } from 'react'
 import { NumberContext } from '../NumberProvider'
 
-import './style.scss'
-
 const BackButton = () => {
 	const { handleBackButton } = useContext(NumberContext)
 	return (
 		<button
 			type='button'
-			className='function-button'
+			className='function-button col-3'
 			onClick={() => handleBackButton()}
 		>
 			&#8592;

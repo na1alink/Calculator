@@ -5,7 +5,7 @@ const FunctionButton = ({ buttonValue }) => {
 	const { handleSetCalcFunction } = useContext(NumberContext)
 	return (
 		<button
-			className='function-button'
+			className='function-button col-3'
 			type='button'
 			onClick={() => handleSetCalcFunction(buttonValue)}
 		>
